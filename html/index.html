@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <title>Morse code translater</title>
+</head>
+<body>
+    <header>
+        <h1>morsecode translater</h1>
+    </header>
+    <section>
+        <h3>Translate to morsecode</h3>
+        <form>
+            <label for="msg">Translate to morsecode</label><br>
+            <input type="text" id="msg" name="msg_field" value=""><br><br>
+            <button onclick="translatemorse()" type="submit">Translate</button>
+        </form>
+        <h4>Translated</h4>
+        <p id="result"></p>
+
+    </section>
+    <script>
+        function translatemorse() {
+            document.getElementById("result").innerHTML = "hello guys";
+        }
+    </script>
+</body>
+</html>
